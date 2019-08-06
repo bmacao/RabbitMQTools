@@ -97,6 +97,8 @@ function Add-RabbitMQQueue
     {
         $Credentials = NormaliseCredentials
         $cnt = 0
+        # Add support for projects using workflows 
+        Add-Type -AssemblyName System.Web
     }
     Process
     {
